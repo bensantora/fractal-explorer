@@ -1,0 +1,15 @@
+{
+  "name": "fractal-explorer",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "fractal_explorer_bg.wasm",
+    "fractal_explorer.js",
+    "fractal_explorer.d.ts"
+  ],
+  "main": "fractal_explorer.js",
+  "types": "fractal_explorer.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
